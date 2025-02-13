@@ -1,0 +1,201 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: rgba(156, 219, 197, 0.918);
+}
+
+
+header{
+    background-color: rgb(6, 73, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header .logo h1{
+    font-size: 55px;   
+}
+
+header .logo h1 span{
+ color:rgb(253, 94, 2) ;
+}
+
+header .menu{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+header .menu a{
+    color: rgb(246, 246, 250);
+    font-size: 30px;
+    text-decoration: none;
+    border-top: solid rgba(221, 69, 120, 0.959) 3px;
+    border-left: solid rgba(221, 69, 120, 0.959)  3px;
+    border-right: solid rgba(221, 69, 120, 0.959)  3px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+header .menu a:hover{
+    background-color: rgb(9, 12, 41);
+}
+
+/* section iniial boas vindas*/
+
+main{
+    width: 100%;
+
+    padding-top: 87px;
+}
+
+.sectop{
+    width: 100%;
+    height: 35rem;
+    align-content: center;
+    justify-items: center;
+    background-image: url('../multimidia/imagem/indexs/txt2.jpg');
+    background-position: center;
+    background-size: 100%;
+    justify-self: center;
+}
+
+.sectop .texto{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+}
+
+ .sectop .texto:hover{
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.301);
+    
+}
+
+ .sectop .texto h1{
+    font-size: 55px;
+}
+ .sectop .texto .nav{
+    margin-top: 35px;
+}
+
+ .sectop .texto .nav a{
+    text-decoration: none;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+ .sectop .texto .nav a:hover{
+    transition: 1.2s;
+    color: rgb(2, 2, 2);
+    background-color: rgb(211, 190, 190);
+    
+}
+
+
+ .sectop .redes{
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.sectop .redes div{
+    width: 50px;
+    height: 50px;
+    border: solid black 3px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+ .sectop .redes div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+ .cards{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+
+.cards section{
+    width: 40%;
+    height: 20rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 30px;
+    background-image: url('../multimidia/imagem/indexs/text.jpg');
+}
+
+.cards section .fundo1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 30px;
+    align-content: center;
+    justify-items: center;
+}
+
+.cards section .fundo1 a{
+    text-decoration: none;
+    color: rgb(252, 250, 249);
+    font-size: 30px;
+}
+
+
+.cards section .fundo1 a .a{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: rgb(253, 94, 2);
+}
+
+.cards section .fundo1 a .a1{
+    color: rgb(18, 196, 228);
+}
+
+
+.cards section .alone{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vs{
+    font-size:20px ;
+}
