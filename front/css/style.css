@@ -58,7 +58,7 @@ header .menu a:hover{
     background-color: rgb(9, 12, 41);
 }
 
-/* section iniial boas vindas*/
+/* section inicial boas vindas*/
 
 main{
     width: 100%;
@@ -198,4 +198,45 @@ main{
 
 .vs{
     font-size:20px ;
+}
+
+
+/* focodigo do rodape*/
+
+footer{
+    background-color: rgb(6, 73, 78);
+    width: 100%;
+}
+
+
+footer section .ftop{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+
+footer section .ftop h2, a{
+    font-size: 55px; 
+    color: white;  
+}
+footer section .ftop h2 span{
+ color:rgb(253, 94, 2) ;
+}
+
+footer section .ftop .alone{
+    font-size: 30px; 
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin-right: 25px;
+}
+
+
+
+footer section .ftop .alone:hover{
+    transition: 0.2s;
+    border-bottom:solid rgb(9, 12, 41) 5px;
 }

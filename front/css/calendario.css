@@ -1,0 +1,187 @@
+*{
+    margin:0px;
+    padding:0px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: rgba(156, 219, 197, 0.918);
+}
+
+
+header{
+    background-color: rgb(6, 73, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: solid rgba(156, 219, 197, 0.918) 3px;
+}
+
+header .logo h1{
+    font-size: 55px;   
+}
+
+header .logo h1 span{
+ color:rgb(253, 94, 2) ;
+}
+
+header .menu{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+header .menu a{
+    color: rgb(246, 246, 250);
+    font-size: 30px;
+    text-decoration: none;
+    border-top: solid rgba(221, 69, 120, 0.959) 3px;
+    border-left: solid rgba(221, 69, 120, 0.959)  3px;
+    border-right: solid rgba(221, 69, 120, 0.959)  3px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+header .menu a:hover{
+    background-color: rgb(9, 12, 41);
+}
+
+/*configuração da main*/
+
+main{
+    width: 100%;
+    padding-top: 85px;
+}
+
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+main h3{
+    color:  white;
+    font-size: 30px;
+}
+
+
+main #ultimos, #Proximos{
+    width: 100%;
+    padding-top: 30px;
+    justify-items: center;
+    
+}
+
+
+main .jogos1{
+    width: 90%;
+    height: 180px;
+    padding: 15px;
+    background-color: rgb(6, 73, 78);
+    border: solid rgb(243, 124, 164) 2px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+} 
+
+
+main .jogos1 .top h2{
+    color: rgb(253, 94, 2);
+}
+
+
+main .jogos1 .baixo{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    
+}
+
+main .jogos1 .baixo .alone1{
+    width: 70%;
+    height: 100%;
+}
+
+main .jogos1 .baixo .alone1 section {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+main .jogos1 .baixo .alone1 section img{
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    margin-right: 0px;
+}
+
+main .jogos1 .baixo .alone1 section p{
+   margin-left: 50px;
+    color: white;
+    font-size: 30px;
+   
+}
+
+main .jogos1 .baixo .alone{
+    width: 30%;
+    height: 100%;
+    border-left: solid rgb(243, 124, 164) 2px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+
+/* trabalhando o footer*/
+
+footer{
+    background-color: rgb(6, 73, 78);
+    border-top: solid rgba(156, 219, 197, 0.918) 3px;
+    width: 100%;
+}
+
+
+footer section .ftop{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+footer section .ftop h2, a{
+    font-size: 55px; 
+    color: white;  
+}
+footer section .ftop h2 span{
+ color:rgb(253, 94, 2) ;
+}
+
+footer section .ftop .alone{
+    font-size: 30px; 
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin-right: 25px;
+}
+
+
+
+footer section .ftop .alone:hover{
+    transition: 0.2s;
+    border-bottom:solid rgb(9, 12, 41) 5px;
+}
