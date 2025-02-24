@@ -66,14 +66,14 @@ main{
 }
 
 main h1{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
     margin-bottom: 50px;
 }
 
 main h3{
-    color:  white;
+    color:  rgb(0, 0, 0);
     font-size: 30px;
 }
 
@@ -90,8 +90,8 @@ main .jogos1{
     width: 90%;
     height: 180px;
     padding: 15px;
-    background-color: rgb(6, 73, 78);
-    border: solid rgb(243, 124, 164) 2px;
+    background-color: rgb(255, 255, 255);
+    
     border-radius: 30px;
     margin-bottom: 20px;
 } 
@@ -130,7 +130,7 @@ main .jogos1 .baixo .alone1 section img{
 
 main .jogos1 .baixo .alone1 section p{
    margin-left: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
    
 }

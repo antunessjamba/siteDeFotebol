@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding:0px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: rgba(156, 219, 197, 0.918);
+}
+
+
+header{
+    background-color: rgb(6, 73, 78);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    border-bottom: solid rgba(156, 219, 197, 0.918) 5px;
+    justify-content: space-between;
+}
+
+header .logo h1{
+    font-size: 55px;   
+}
+
+header .logo h1 span{
+ color:rgb(253, 94, 2) ;
+}
+
+header .menu{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+header .menu a{
+    color: rgb(246, 246, 250);
+    font-size: 30px;
+    text-decoration: none;
+    border-top: solid rgba(221, 69, 120, 0.959) 3px;
+    border-left: solid rgba(221, 69, 120, 0.959)  3px;
+    border-right: solid rgba(221, 69, 120, 0.959)  3px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+header .menu a:hover{
+    background-color: rgb(9, 12, 41);
+}
+
+/* section inicial boas vindas*/
+
+main{
+    width: 100%;
+
+    padding-top: 87px;
+    justify-items: center;
+}
+
+.dados{          
+    justify-items: center;                                                                                                                                                                                                                                            
+    margin-top: 20px;
+    width: 50%;
+    background-color:rgb(6, 73, 78);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dados h2{
+    margin-bottom: 20px;
+}
+
+.dados h2,h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dados hr{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 10px;
+    background-color: black;
+    border: solid black 2px;
+}
+
+.dados form label{
+    font-size:20px;
+    margin-bottom: 17px;
+}
+
+.dados form input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid rgba(221, 69, 120, 0.959) 2px;
+    margin-bottom: 17px;
+    padding: 5px;
+}
+
+
+.dados form #enviar{
+    margin-left: 130px;
+    background-color:rgb(253, 94, 2);
+    border: solid rgb(253, 94, 2) 2px;
+    width: 250px;
+}
